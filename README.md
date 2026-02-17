@@ -17,7 +17,8 @@ correlate.o: correlate.cpp correlate.h
 clean:
 	rm -f $(OBJS) $(TARGET)
 
-*Analysis Steps*
+**Analysis Steps**
+
 Compile: Run make in your terminal.
 Sequential Test: Run perf stat ./correlate_prog 1000 1000 1.
 Parallel Test: Run perf stat ./correlate_prog 1000 1000 4 
